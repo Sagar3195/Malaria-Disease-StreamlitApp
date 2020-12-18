@@ -55,7 +55,7 @@ Original file is located at
 # 
 #
 
-!ngrok authtoken 1lWUdS0U3Wx3MIr4kaaXKD5EXA0_5W93S5b4a7cUSx1bD8wdp
+#!ngrok authtoken XXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 !nohup streamlit run malaria.py &
 
@@ -66,37 +66,5 @@ public_url
 
 !cat /content/nohup.out
 
-ngrok.kill()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#ngrok.kill()
 
